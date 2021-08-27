@@ -33,6 +33,8 @@ public class Triangulo {
 					}else if ( lado1 != lado2 && lado1 != lado3 && lado2 != lado3) {
 						System.out.println("É um triângulo Escaleno ");
 					}
+				}else {
+					System.out.println("Não é um triângulo!");
 				}
 			}
 		}
